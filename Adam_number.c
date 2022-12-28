@@ -3,8 +3,9 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int sq=n*n,rv,r;
-    while(n!=0)
+    int sq=n*n;
+    int t=n,r,rv=0;
+    while(n>0)
     {
         r=n%10;
         rv=rv*10+r;
@@ -25,5 +26,5 @@ int main()
     else
     {
         printf("False");
-    }
+}
 }

@@ -24,13 +24,11 @@ int main()
     d2=n-b;
     if(d1>d2)
     {
-        printf("%d
-",b);
+        printf("%d",b);
     }
     else if(d2>d1)
     {
-        printf("%d
-",f);
+        printf("%d",f);
     }
     else if (d1==d2)
     {

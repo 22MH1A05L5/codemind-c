@@ -9,15 +9,19 @@ int main()
             {
                 printf(" ");
             }
-            for(int j=i-1;j>=1;j--)
+            for(int j=1;j<=n;j++)
             {
-                printf("%d",j);
-            }
-            for(int t=0;t<=i-1;t++)
+            if(i==1||i==n||j==1||j==n)
             {
-                printf("%d",t);
+                printf("*");
             }
-        printf("
+            else
+            {
+                printf(" ");
+            }
+            }
+            printf("
 ");
     }
+    
 }

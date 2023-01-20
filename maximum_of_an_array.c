@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int n;
+    int n,i;
     scanf("%d",&n);
     int a[n];
-    for(int i=0;i<n;i++)
+    for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
     }
@@ -16,5 +16,5 @@ int main()
             max=a[i];
         }
     }
-    printf("%d",max);
+     printf("%d",max);
 }

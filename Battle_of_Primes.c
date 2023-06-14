@@ -2,7 +2,7 @@
 int prime(int n)
 {
     int c=0;
-    for(int i=1; i<=n; i++)
+    for(int i=1;i<=n;i++)
     {
         if(n%i==0)
         {
@@ -13,17 +13,17 @@ int prime(int n)
     {
         return 1;
     }
-    else 
+    else
     {
         return 0;
     }
 }
 int main()
 {
-    int n1,n2,f;
-    scanf("%d %d",&n1,&n2);
-   int n3=n1+n2;
-    for(int i=n3+1; ;i++)
+    int a,b,f;
+    scanf("%d%d",&a,&b);
+    int c=a+b;
+    for(int i=c+1;;i++)
     {
         if(prime(i))
         {
@@ -31,7 +31,5 @@ int main()
             break;
         }
     }
-    int t=f-n3;
-    printf("%d",t);
-    
+    printf("%d",f-c);
 }

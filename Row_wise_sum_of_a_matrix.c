@@ -1,23 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int r,c;
-    scanf("%d%d",&r,&c);
-    int mat[r][c];
-    for(int i=0;i<r;i++)
-    {
-        for(int j=0;j<c;j++)
-        {
-            scanf("%d",&mat[i][j]);
-        }
-    }
-    for(int i=0;i<r;i++)
+    int n,m;
+    scanf("%d%d",&n,&m);
+    int a[n][m];
+    for(int i=1;i<=n;i++)
     {
         int s=0;
-        for(int j=0;j<c;j++)
+        for(int j=1;j<=m;j++)
         {
-            s=s+mat[i][j];
+            scanf("%d",&a[i][j]);
+            s=s+a[i][j];
         }
         printf("%d ",s);
+        
     }
 }
